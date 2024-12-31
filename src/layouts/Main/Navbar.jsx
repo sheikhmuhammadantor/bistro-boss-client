@@ -13,7 +13,7 @@ function Navbar() {
     </>
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100/60 fixed z-10">
             <div className="flex-1">
                 <a className="btn btn-ghost text-xl">
                     <h1>Bistro Boss</h1><br />

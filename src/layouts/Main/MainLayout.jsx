@@ -3,9 +3,9 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 function MainLayout() {
-    return <section>
+    return <section className="max-w-[1380px] mx-auto">
         <Navbar />
-       <section className="min-h-screen">
+       <section className="">
        <Outlet />
        </section>
         <Footer />
