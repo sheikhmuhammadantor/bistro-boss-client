@@ -1,4 +1,4 @@
-import MainLayout from "./Layout/MainLayout";
-import Home from "./Pages/Home/Home";
+import MainLayout from "./layouts/Main/MainLayout";
+import Home from "./pages/Home/Home";
 
 export {Home, MainLayout};
